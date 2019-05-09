@@ -2,84 +2,40 @@
 body {
 	margin: 0;
 	padding: 0;
+	text-align: center;
+	background-image: url(./images//background.jpg);
 }
 
+li {
+	display: inline-block;
+	margin: 10px;
+	font-size: 23px;
+}
 /**************************************************ID TAGS*************************************/
-
-#myNav1 {
-	background-color: #282a2b;
-}
 
 /* *************************************************CLASS TAGS************************* */
 
-.affix {
-	top: 0;
-	width: 100%;
-	z-index: 9999 !important;
+.imageContainer {
+	margin-left: auto;
+	margin-right: auto;
 }
-
-.navName {
-	font-family: 'Russo One', sans-serif;
-	font-size: 160%;
-	color: #b4cbd9;
-}
-
-.navInfo {
-	font-family: 'Acme', sans-serif;
-	font-size: 130%;
-	color: #73a2bf;
-	padding: 10px;
-}
-
-.navInfo:hover {
-	color: white;
-}
-
-.navbar-toggler-icon {
-	color: white;
-}
-.custom-toggler.navbar-toggler {
-	background-color: rgb(97, 134, 156);
-	font-size: 100%;
-}
-
-.mainContent {
-	background-color: rgb(220, 229, 236);
-	height: 100vh;
-}
-
-.profilePic {
-	height: 112px;
-	width: 112px;
-	margin: 35% 0 0 0;
-}
-
-@media screen and (max-width: 770px) {
-	.profilePic {
-	}
-}
-
-.jobTitle {
-	text-align: center;
-}
-
-.projImg {
+.myImage {
+	display: block;
 	height: 200px;
 	width: 200px;
-	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-.projSlide {
-	width: 28%;
-	margin-left: 30%;
+.myIcons {
+	margin-left: auto;
+	margin-right: auto;
 }
 
-@media screen and (max-width: 1200px) {
-	.projSlide {
-		width: 50%;
-	}
+.myPages {
 }
 
-.projTitle {
-	font-family: 'Acme', sans-serif;
+.myLinks-Ul {
+	list-style-type: none;
+	padding: 0;
 }
